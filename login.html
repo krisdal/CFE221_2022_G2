@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body>
+    <input type="hidden" id="anPageName" name="page" value="login" />
+    <div class="container-center-horizontal">
+      <div class="login screen">
+        <div class="flex-row">
+          <div class="x2">
+            <div class="logo"></div>
+            <div class="place place-2 atma-semi-bold-black-40px">NoobPro</div>
+          </div>
+          <a href="home-default.html">
+            <div class="home-button">
+              <div class="overlap-group overlap"><div class="place-1 place-2 atma-semi-bold-black-24px">HOME</div></div>
+            </div></a
+          ><a href="sign-up-as.html">
+            <div class="sign-upbutton">
+              <div class="overlap-group1 overlap"><div class="sign-up atma-semi-bold-black-24px-2">Sign up</div></div>
+            </div></a
+          >
+        </div>
+        <div class="login-section">
+          <form action="/login" method="post">
+          <div class="info">
+          <h1 class="title atma-semi-bold-black-96px">Welcome back</h1>
+          <div class="login-1">
+            <div class="username">
+              <div class="username-1 antic-normal-black-48px">USERNAME</div>
+              <div class="user-input">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                id="username"
+                  class="x-login antic-normal-black-36px-2"
+                  name="username"
+                  placeholder="Username"
+                  type="text"
+                  autocomplete="username"
+                />
+              </div>
+            </div>
+            <div class="password">
+              <div class="password-1 antic-normal-black-48px">PASSWORD</div>
+              <div class="user-input">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                id="password"
+                  class="x-login antic-normal-black-36px-2"
+                  name="password"
+                  placeholder="Password"
+                  type="password"
+                  autocomplete="current-password"
+                />
+              </div>
+            </div>
+        <button type="submit" class="lets-work overlap-group-1">
+          <span class="lets-work-1 atma-semi-bold-black-48px">Let’s work</span></button>
+            </form>
+            <div id="error-message"></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>

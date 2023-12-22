@@ -1,0 +1,213 @@
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --black-2: #00000080;
+  --black-3: #000000d1;
+  --black-4: #000000d6;
+  --colordark-background: #2c353d;
+  --gumbo: #7e95aa;
+  --midnight-moss: #050505;
+  --pink: #fccdcd;
+  --white: #ffffff;
+  --white-2: #ffffff80;
+  --white-3: #ffffff8a;
+ 
+  --font-size-l: 40px;
+  --font-size-m: 36px;
+  --font-size-s: 32px;
+  --font-size-xl: 48px;
+  --font-size-xs: 24px;
+  --font-size-xxs: 20px;
+  --font-size-xxxs: 14px;
+ 
+  --font-family-antic: "Antic", Helvetica;
+  --font-family-atma: "Atma", Helvetica;
+  --font-family-chelsea_market: "Chelsea Market", Helvetica;
+  --font-family-cinzel_decorative: "Cinzel Decorative", Helvetica;
+  --font-family-clarendon_lt_bt-light: "Clarendon Lt BT-Light", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.text-smregular {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.antic-normal-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-antic);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-semi-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.antic-normal-black-36px-2 {
+  color: var(--black-2);
+  font-family: var(--font-family-antic);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.atma-semi-bold-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-atma);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.cinzeldecorative-normal-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-cinzel_decorative);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.clarendonltbt-light-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-clarendon_lt_bt-light);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.atma-semi-bold-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-atma);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.atma-semi-bold-black-40px {
+  color: var(--black-4);
+  font-family: var(--font-family-atma);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.atma-semi-bold-black-24px {
+  color: var(--black-3);
+  font-family: var(--font-family-atma);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.atma-semi-bold-black-32px-2 {
+  color: var(--black-3);
+  font-family: var(--font-family-atma);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.cinzeldecorative-normal-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-cinzel_decorative);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.clarendonltbt-light-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-clarendon_lt_bt-light);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.cinzeldecorative-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-cinzel_decorative);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.atma-semi-bold-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-atma);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.atma-semi-bold-black-24px-2 {
+  color: var(--black);
+  font-family: var(--font-family-atma);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.atma-semi-bold-black-40px-2 {
+  color: var(--black);
+  font-family: var(--font-family-atma);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.atma-semi-bold-black-64px {
+  color: var(--black);
+  font-family: var(--font-family-atma);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.atma-semi-bold-black-96px {
+  color: var(--black);
+  font-family: var(--font-family-atma);
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.antic-normal-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-antic);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.antic-normal-black-40px {
+  color: var(--black-4);
+  font-family: var(--font-family-antic);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chelseamarket-normal-black-96px {
+  color: var(--black);
+  font-family: var(--font-family-chelsea_market);
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-semi-bold-outer-space-14px {
+  color: var(--colordark-background);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 600;
+}

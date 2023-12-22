@@ -1,0 +1,433 @@
+/* screen - staff-my-campaign */
+
+
+
+.staff-my-campaign {
+  background-image: url(../img/home-default.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 2566px;
+  min-width: 1440px;
+  width: 100%;
+}
+
+.staff-my-campaign .nav-bar {
+  background-image: url(../img/nav-bar.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 99px;
+  left: 102px;
+  position: fixed;
+  top: 55px;
+  width: 1236px;
+  z-index: 4;
+}
+
+.staff-my-campaign .x1 {
+  display: flex;
+  gap: 21px;
+  margin-left: 23px;
+  margin-top: 24px;
+  width: 181px;
+}
+
+.staff-my-campaign .place {
+  height: 44.41px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.staff-my-campaign .active-campaign {
+  cursor: pointer;
+  height: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 105px;
+  margin-top: 31px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 239px;
+}
+
+.staff-my-campaign .active-campaign:hover {
+  transform: scale(1.1);
+}
+
+.staff-my-campaign .recent-campaign {
+  cursor: pointer;
+  height: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 86px;
+  margin-top: 29px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 248px;
+}
+
+.staff-my-campaign .recent-campaign:hover {
+  transform: scale(1.1);
+}
+
+.staff-my-campaign .home-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 82px;
+  margin-top: 28px;
+  min-width: 116px;
+  transition: all 0.2s ease;
+}
+
+.staff-my-campaign .home-button:hover {
+  transform: scale(1.1);
+}
+
+.staff-my-campaign .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--pink);
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 50px;
+  min-width: 114px;
+  padding: 2px 27px;
+}
+
+.staff-my-campaign .place-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+  min-width: 60px;
+}
+
+.staff-my-campaign .user-button:hover {
+  transform: scale(1.1);
+}
+
+.staff-my-campaign .overlap-group {
+  height: 50px;
+  position: relative;
+  width: 133px;
+}
+
+.staff-my-campaign .new-cam {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 98px;
+  margin-left: 452px;
+  margin-top: 240px;
+  min-width: 497px;
+  transition: all 0.2s ease;
+  z-index: 3;
+}
+
+.staff-my-campaign .new-cam:hover {
+  transform: scale(1.1);
+}
+
+.staff-my-campaign .overlap-group-1 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-16@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 106px;
+  justify-content: flex-end;
+  margin-bottom: -8px;
+  margin-left: -4px;
+  min-width: 503px;
+  padding: 10px 21px;
+}
+
+.staff-my-campaign .create-new-campaign {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 78px;
+}
+
+.staff-my-campaign .active-cam {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  height: 997px;
+  margin-top: 69px;
+  width: 1440px;
+  z-index: 1;
+}
+
+.staff-my-campaign .title {
+  height: 125px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 279px;
+  width: 882px;
+}
+
+.staff-my-campaign .frame-15515 {
+  background-image: url(../img/frame-15515.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 3px solid;
+  border-color: var(--black);
+  border-radius: 50px;
+  display: flex;
+  height: 831px;
+  margin-left: 177px;
+  overflow: hidden;
+  width: 1097px;
+}
+
+.staff-my-campaign .frame-15516 {
+  display: flex;
+  flex-direction: column;
+  height: 746px;
+  margin-left: 53px;
+  margin-top: 43px;
+  width: 992px;
+}
+
+.staff-my-campaign .frame-15517 {
+  display: flex;
+  height: 67px;
+  margin-left: 31px;
+  overflow: hidden;
+  width: 930px;
+}
+
+.staff-my-campaign .campaign-name {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  width: 250px;
+}
+
+.staff-my-campaign .create-by {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 136px;
+  margin-top: 9px;
+  width: 151px;
+}
+
+.staff-my-campaign .influencer {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 235px;
+  margin-top: 9px;
+  width: 161px;
+}
+
+.staff-my-campaign .cam1 {
+  cursor: pointer;
+  display: flex;
+  height: 67px;
+  margin-left: 31px;
+  transition: all 0.2s ease;
+  width: 930px;
+}
+
+.staff-my-campaign .cam1:hover {
+  transform: scale(1.1);
+}
+
+.staff-my-campaign .xx {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  width: 47px;
+}
+
+.staff-my-campaign .staff-a {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 339px;
+  margin-top: 9px;
+  width: 111px;
+}
+
+.staff-my-campaign .xxx {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 275px;
+  margin-top: 9px;
+  width: 59px;
+}
+
+.staff-my-campaign .cam2 {
+  display: flex;
+  height: 67px;
+  margin-left: 31px;
+  width: 930px;
+}
+
+.staff-my-campaign .xxx-1 {
+  margin-left: 275px;
+}
+
+.staff-my-campaign .c-am3 {
+  display: flex;
+  height: 67px;
+  margin-left: 28px;
+  width: 930px;
+}
+
+.staff-my-campaign .xxx-2 {
+  margin-left: 275px;
+}
+
+.staff-my-campaign .recent-cam {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  height: 997px;
+  margin-left: 11px;
+  margin-top: 13px;
+  width: 1429px;
+  z-index: 2;
+}
+
+.staff-my-campaign .recent-campaign-1 {
+  height: 125px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 358px;
+  width: 723px;
+}
+
+.staff-my-campaign .frame-15517-1 {
+  display: flex;
+  height: 67px;
+  margin-left: 31px;
+  width: 930px;
+}
+
+.staff-my-campaign .start-date {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 136px;
+  margin-top: 9px;
+  width: 165px;
+}
+
+.staff-my-campaign .end-date {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 221px;
+  margin-top: 9px;
+  width: 140px;
+}
+
+.staff-my-campaign .frame-15518 {
+  display: flex;
+  height: 67px;
+  margin-left: 31px;
+  width: 930px;
+}
+
+.staff-my-campaign .xxxx {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 339px;
+  margin-top: 9px;
+  width: 79px;
+}
+
+.staff-my-campaign .xxx-3 {
+  margin-left: 307px;
+}
+
+.staff-my-campaign .frame-15519 {
+  display: flex;
+  height: 67px;
+  margin-left: 31px;
+  width: 930px;
+}
+
+.staff-my-campaign .xxx-4 {
+  margin-left: 307px;
+}
+
+.staff-my-campaign .frame-15518-1 {
+  display: flex;
+  height: 67px;
+  margin-left: 28px;
+  width: 930px;
+}
+
+.staff-my-campaign .xxx-5 {
+  margin-left: 307px;
+}
+
+.staff-my-campaign .xx-6 {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  width: 47px;
+}
+
+.staff-my-campaign .xxx-6 {
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  width: 59px;
+}
+.new-cam {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 98px;
+  margin-left: 452px;
+  margin-top: 240px;
+  min-width: 497px;
+  transition: all 0.2s ease;
+  z-index: 3;
+}
+
+.new-cam:hover {
+  transform: scale(1.1);
+}
+
+.overlap-group-10 {
+  align-items: flex-start;
+  background-image: url(https://cdn.animaapp.com/projects/656fbb95cec3031b93024349/releases/656fbf70e71ed6f97b89800e/img/rectangle-16@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 106px;
+  justify-content: flex-end;
+  margin-bottom: -8px;
+  margin-left: -4px;
+  min-width: 503px;
+  padding: 10px 98px;
+}
+
+.join-campaign {
+  color: var(--black);
+  cursor: pointer;
+  font-family: var(--font-family-atma);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 78px;
+}

@@ -1,0 +1,262 @@
+/* screen - staff-look-influ-profile */
+
+.staff-look-influ-profile {
+  align-items: center;
+  background-image: url(../img/staff-look-influ-profile.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+  height: 1741px;
+  width: 1440px;
+}
+
+.staff-look-influ-profile .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 57px;
+  margin-left: 64.0px;
+  margin-top: 60px;
+  min-width: 1254px;
+}
+
+.staff-look-influ-profile .x1 {
+  display: flex;
+  gap: 21px;
+  width: 181px;
+}
+
+.staff-look-influ-profile .place {
+  height: 44.41px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.staff-look-influ-profile .home-button {
+  align-items: flex-start;
+  align-self: center;
+  cursor: pointer;
+  display: flex;
+  margin-left: 702px;
+  margin-top: 1.0px;
+  min-width: 116px;
+  transition: all 0.2s ease;
+}
+
+.staff-look-influ-profile .home-button:hover {
+  transform: scale(1.1);
+}
+
+.staff-look-influ-profile .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--pink);
+  height: 50px;
+  min-width: 114px;
+  padding: 4px 25px;
+}
+
+.staff-look-influ-profile .place-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+  min-width: 64px;
+}
+
+.staff-look-influ-profile .my-cam:hover {
+  transform: scale(1.1);
+}
+
+.staff-look-influ-profile .overlap-group {
+  align-items: flex-start;
+  border: 2px solid;
+  border-color: var(--black);
+  height: 53px;
+  min-width: 230px;
+  padding: 5px 42px;
+}
+
+.staff-look-influ-profile .mycam {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+  width: 142px;
+}
+
+.staff-look-influ-profile .info {
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
+  height: 1550px;
+  width: 1440px;
+}
+
+.staff-look-influ-profile .rectangle-7 {
+  height: 691px;
+  margin-left: 449px;
+  width: 542px;
+}
+
+.staff-look-influ-profile .title {
+  height: 104px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 581px;
+  width: 278px;
+}
+
+.staff-look-influ-profile .info-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 116px;
+  min-height: 537px;
+  width: 1162px;
+}
+
+.staff-look-influ-profile .st-name-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 33px;
+  min-width: 984px;
+}
+
+.staff-look-influ-profile .first-name {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  width: 467px;
+}
+
+.staff-look-influ-profile .first-name-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 161px;
+}
+
+.staff-look-influ-profile .rectangle-11-2 {
+  width: 465px;
+}
+
+.staff-look-influ-profile .last-name {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  width: 484px;
+}
+
+.staff-look-influ-profile .last-name-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 158px;
+}
+
+.staff-look-influ-profile .rectangle-11-3 {
+  width: 482px;
+}
+
+.staff-look-influ-profile .flex-row-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 50px;
+  margin-left: 1.0px;
+  margin-top: 32px;
+  min-width: 1141px;
+}
+
+.staff-look-influ-profile .flex-row-item {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  width: 347px;
+}
+
+.staff-look-influ-profile .follower {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 124px;
+}
+
+.staff-look-influ-profile .rectangle-11 {
+  height: 75px;
+  object-fit: cover;
+  width: 345px;
+}
+
+.staff-look-influ-profile .engagement-rate {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 259px;
+}
+
+.staff-look-influ-profile .niche {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 84px;
+}
+
+.staff-look-influ-profile .require-biomet {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  margin-top: 23px;
+  width: 1164px;
+}
+
+.staff-look-influ-profile .bio {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  width: 374px;
+}
+
+.staff-look-influ-profile .rectangle-11-1 {
+  width: 1162px;
+}
+
+.staff-look-influ-profile .platform {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  margin-top: 10px;
+  width: 1164px;
+}
+
+.staff-look-influ-profile .platform-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46.0px;
+  width: 374px;
+}
+
+.staff-look-influ-profile .overlap {
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+}
+
+.staff-look-influ-profile .rectangle-11-4 {
+  height: 75px;
+  object-fit: cover;
+}

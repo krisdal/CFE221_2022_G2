@@ -1,0 +1,252 @@
+/* screen - login */
+
+.login {
+  align-items: center;
+  background-image: url(../img/login.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  height: 1232px;
+  width: 1440px;
+}
+
+.login .flex-row {
+  align-items: flex-end;
+  display: flex;
+  height: 57px;
+  margin-left: 2.0px;
+  margin-top: 69px;
+  min-width: 1200px;
+}
+
+.login .x2 {
+  align-self: flex-start;
+  display: flex;
+  gap: 21px;
+  width: 181px;
+}
+
+.login .place {
+  height: 44.41px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.login .home-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 771px;
+  min-width: 116px;
+  transition: all 0.2s ease;
+}
+
+.login .home-button:hover {
+  transform: scale(1.1);
+}
+
+.login .overlap-group {
+  align-items: flex-end;
+  background-color: var(--pink);
+  padding: 4px 25px;
+}
+
+.login .place-1 {
+  min-height: 39px;
+  min-width: 64px;
+}
+
+.login .sign-upbutton {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 16px;
+  min-width: 116px;
+  transition: all 0.2s ease;
+}
+
+.login .sign-upbutton:hover {
+  transform: scale(1.1);
+}
+
+.login .overlap-group1 {
+  align-items: flex-start;
+  border: 2px solid;
+  border-color: var(--black);
+  padding: 5px 18px;
+}
+
+.login .sign-up {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+}
+
+.login .info {
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 1041px;
+  width: 1440px;
+}
+
+.login .title {
+  height: 155px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 426px;
+  margin-top: 27px;
+  text-shadow: 0px 4px 4px #00000040;
+  width: 588px;
+}
+
+.login .login-1 {
+  background-image: url(../img/rectangle-13.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 608px;
+  margin-left: 380px;
+  width: 679px;
+}
+
+.login .username {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  height: 151px;
+  margin-left: 67px;
+  margin-top: 40px;
+  width: 558px;
+}
+
+.login .username-1 {
+  height: 57px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 157px;
+  width: 240px;
+}
+
+.login .user-input {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 75px;
+  position: relative;
+  width: 556px;
+}
+
+.login .rectangle-11 {
+  height: 75px;
+  object-fit: cover;
+  position: relative;
+  width: 556px;
+}
+
+.login .x-login {
+  background-color: transparent;
+  border: 0;
+  height: 44px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 512px;
+}
+
+.login .x-login::placeholder {
+  color: #0000004c;
+}
+
+.login .password {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  height: 163px;
+  margin-left: 67px;
+  margin-top: 40px;
+  width: 558px;
+}
+
+.login .password-1 {
+  height: 57px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 153px;
+  white-space: nowrap;
+  width: 240px;
+}
+
+.login .lets-work {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 54px;
+  margin-right: 54px;
+  margin-top: 86px;
+  min-width: 583px;
+  transition: all 0.2s ease;
+  text-decoration: none; 
+    color: inherit;
+}
+
+.login .lets-work:hover {
+  transform: scale(1.1);
+} 
+
+.login .overlap-group-1 {
+  align-items: flex-start;
+  background-color: #9de6ff;
+  border: 3px solid;
+  border-color: var(--black);
+  border-radius: 50px;
+  display: flex;
+  height: 75px;
+  min-width: 581px;
+  padding: 0 176px;
+}
+
+.login .lets-work-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -3px;
+  min-height: 64px;
+  width: 221px;
+}
+
+.login .overlap {
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 50px;
+  min-width: 114px;
+}
+
+.login .place-2 {
+  letter-spacing: 0;
+  line-height: normal;
+}
+.login #error-message {
+  color: red;
+}
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+

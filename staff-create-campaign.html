@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Create Campaign</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/staff-create-campaign.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body>
+    <input type="hidden" id="anPageName" name="page" value="staff-create-campaign" />
+    <div class="container-center-horizontal">
+      <div class="staff-create-campaign screen">
+        <div class="flex-row flex">
+          <div class="x1">
+            <div class="logo"></div>
+            <div class="place atma-semi-bold-black-40px">NoobPro</div>
+          </div>
+          <a href="staff-dashboard.html">
+            <div class="home-button">
+              <div class="overlap-group4"><div class="place-1 atma-semi-bold-black-24px">HOME</div></div>
+            </div></a
+          ><a href="staff-my-campaign.html">
+            <div class="mycambutton">
+              <div class="overlap-group3"><div class="mycam atma-semi-bold-black-24px-2">My Campaign</div></div>
+            </div></a
+          >
+        </div>
+        <form id="create-campaign-form" action="/staff-create-campaign" method="post">
+          <div class="info">
+          <div class="flex-row-1">
+            <div class="flex-col flex">
+              <h1 class="lets-create lets atma-semi-bold-black-64px">Let’s&nbsp;&nbsp;Create</h1>
+              <div class="overlap-group2">
+                <div class="overlap-group1">
+                  <div class="camapign">
+                    <div class="campaign-name antic-normal-black-36px">Campaign Name</div>
+                    <div class="user-input-2 user-input-3">
+                      <img class="rectangle-11-2 rectangle-11-3" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                      <input
+                      id="name"
+                        class="campaign-name-here antic-normal-black-36px-2"
+                        name="name"
+                        placeholder="campaign name here"
+                        type="text"
+            
+                      />
+                    </div>
+                  </div>
+                  <div class="end-date">
+                    <div class="end-date-1 antic-normal-black-36px">End date</div>
+                    <div class="user-input">
+                      <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                      <input
+                      id="enddate"
+                        class="x-herer antic-normal-black-36px-2"
+                        name="enddate"
+                        placeholder="End date herer"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="start-date">
+                  <div class="start-date-1 antic-normal-black-36px">Start Date</div>
+                  <div class="user-input">
+                    <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                    <input
+                    id="startdate"
+                      class="x-herer antic-normal-black-36px-2"
+                      name="startdate"
+                      placeholder="start date herer"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="budget">
+              <div class="budget-1 antic-normal-black-36px">Budget</div>
+              <div class="user-input">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                id="budget"
+                  class="x-herer antic-normal-black-36px-2"
+                  name="budget"
+                  placeholder="budget herer"
+                  type="number"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="requiremet">
+            <div class="requirement antic-normal-black-36px">Requirement</div>
+            <div class="user-input-1 user-input-3">
+              <img class="rectangle-11-1 rectangle-11-3" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+              <input
+              id="requirement"
+                class="x-here antic-normal-black-36px-2"
+                name="requirement"
+                placeholder="Requirement Here"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="description">
+            <div class="description-1 antic-normal-black-36px">Description</div>
+            <div class="user-input-1 user-input-3">
+              <img class="rectangle-11-1 rectangle-11-3" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+              <input
+              id="description"
+                class="x-here antic-normal-black-36px-2"
+                name="description"
+                placeholder="Description Here"
+                type="text"
+              />
+            </div>
+          </div>
+          <button type="submit" class="im-ready-button">
+            <div class="overlap-group">
+              <img class="rectangle-12" src="img/rectangle-12@2x.png" alt="Rectangle 12" />
+                <div class="lets-work lets atma-semi-bold-black-36px">Let’s work</div>
+            </div>
+        </button>
+    </form> 
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

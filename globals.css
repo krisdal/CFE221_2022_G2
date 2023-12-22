@@ -1,0 +1,625 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Atma:600|Antic:400|Chelsea+Market:400|Cinzel+Decorative:400|Inter:500,400,600|Poppins:600");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+
+
+
+body {
+  margin: 0;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+input:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  background-color: var(--black);
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+.end-date-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 130px;
+}
+
+.requirement {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  width: 374px;
+}
+
+.x-here::placeholder {
+  color: #0000004c;
+}
+
+.slide-bar::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.slide-bar-item {
+  align-items: flex-start;
+  display: flex;
+  min-width: 382.01px;
+}
+
+.rectangle-7-1 {
+  height: 479px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 376px;
+}
+
+.rectangle-8-2 {
+  background-color: var(--white-3);
+  height: 87px;
+  top: 393px;
+  width: 376px;
+}
+
+.jessica_style {
+  left: 57px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 410px;
+  white-space: nowrap;
+  width: 262px;
+}
+
+.model-consultant {
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 449px;
+  white-space: nowrap;
+  width: 325px;
+}
+
+.influencer-1 {
+  color: var(--black);
+  font-family: var(--font-family-cinzel_decorative);
+  font-size: 15px;
+  font-weight: 400;
+  left: 140px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 395px;
+}
+
+.overlap-group1-1 {
+  background-image: url(../img/rectangle-7-1@2x.png);
+  background-size: 100% 100%;
+  height: 479px;
+  position: relative;
+  width: 376px;
+}
+
+.d_sarah {
+  left: 57px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 410px;
+  white-space: nowrap;
+  width: 262px;
+}
+
+.psychologist-writer {
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 448px;
+  white-space: nowrap;
+  width: 325px;
+}
+
+.jane_r {
+  left: 57px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 410px;
+  white-space: nowrap;
+  width: 262px;
+}
+
+.traveler-designer {
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 448px;
+  white-space: nowrap;
+  width: 325px;
+}
+
+.nike-inc {
+  left: 57px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 410px;
+  white-space: nowrap;
+  width: 262px;
+}
+
+.sport {
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 448px;
+  white-space: nowrap;
+  width: 325px;
+}
+
+.riot-games-inc {
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 410px;
+  white-space: nowrap;
+  width: 341px;
+}
+
+.microsoft {
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 410px;
+  white-space: nowrap;
+  width: 341px;
+}
+
+.software-service {
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 448px;
+  white-space: nowrap;
+  width: 325px;
+}
+
+.recent-campaign::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.rectangle-8-1 {
+  background-color: var(--white);
+  border: 2px solid;
+  border-color: var(--black);
+  height: 132px;
+  top: 593px;
+  width: 568px;
+}
+
+.campaign-1 {
+  left: 86px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 612px;
+  width: 395px;
+}
+
+.by-influencer-for-company {
+  left: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 679px;
+  width: 490px;
+}
+
+.rectangle-10 {
+  height: 593px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 567px;
+}
+
+.group-1 {
+  display: flex;
+  gap: 17px;
+  margin-left: 43px;
+  margin-top: 26px;
+  width: 227px;
+}
+
+.ellipse-2 {
+  background-color: var(--alto);
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+.group-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  height: 287px;
+  margin-left: 257px;
+  margin-top: 50px;
+  width: 228px;
+}
+
+.contact-us {
+  height: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 220px;
+}
+
+.line-id {
+  height: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 108px;
+}
+
+.phone {
+  height: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 100px;
+}
+
+.group-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 251px;
+  margin-top: 50px;
+  min-height: 168px;
+  width: 255px;
+}
+
+.social-media {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 65px;
+}
+
+.social-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 57px;
+  min-width: 253px;
+}
+
+.social-1 {
+  cursor: pointer;
+  height: 98px;
+  object-fit: cover;
+  width: 98px;
+}
+
+.rectangle-8-3 {
+  border-radius: 0px 0px 50px 50px;
+  left: 0;
+  position: absolute;
+}
+
+.my-cam {
+  align-items: flex-start;
+  align-self: flex-end;
+  cursor: pointer;
+  display: flex;
+  margin-left: 23px;
+  min-width: 232px;
+  transition: all 0.2s ease;
+}
+
+.screenshot-2023-12-05-172204-1 {
+  height: 879px;
+  margin-left: 254px;
+  margin-top: 46px;
+  object-fit: cover;
+  width: 932px;
+}
+
+.flex-col-item {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  width: 347px;
+}
+
+.lets-get-start {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 104px;
+}
+
+.x-here-1::placeholder {
+  color: #0000004c;
+}
+
+.name-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 46px;
+  margin-top: 23px;
+  min-width: 1204px;
+}
+
+.date-of-birth {
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.my-campaign {
+  cursor: pointer;
+  height: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 41px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 198px;
+}
+
+.log-out {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+  min-width: 76px;
+}
+
+.user-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 11px;
+  margin-top: 21px;
+  min-width: 135px;
+  transition: all 0.2s ease;
+}
+
+.logo-1 {
+  background-color: var(--black);
+  border-radius: 25px;
+  height: 50px;
+  left: 83px;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+
+.user {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 424px;
+  transition: all 0.2s ease;
+}
+
+.lets-discover {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 78px;
+  min-width: 288px;
+  text-align: center;
+}
+
+.overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 75px;
+  min-width: 3140px;
+}
+
+.button-1 {
+  align-items: flex-start;
+  align-self: center;
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 auto;
+  margin-left: 2.0px;
+  min-width: 424px;
+  transition: all 0.2s ease;
+}
+
+.magnifier-1 {
+  cursor: pointer;
+  height: 79px;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  width: 80px;
+}
+
+.influ-pic {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.frame-758-item {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 1120px;
+}
+
+.card-blog {
+  align-items: flex-start;
+  background-color: var(--colordark-background);
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25)) 1;
+  border-radius: 24px;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 24px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.rectangle-410 {
+  height: 208px;
+  object-fit: cover;
+  position: relative;
+  width: 208px;
+}
+
+.filter {
+  color: var(--colordark-background);
+  flex: 1;
+  font-family: var(--font-family-poppins);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.input {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 226px;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.text {
+  background-color: transparent;
+  border: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1.00px;
+  padding: 0;
+  position: relative;
+  width: 226px;
+}
+
+.text::placeholder {
+  color: #2c353d99;
+}
+
+.input-1 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 226px;
+}
+
+.text-1 {
+  background-color: transparent;
+  border: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1.00px;
+  padding: 0;
+  position: relative;
+  width: 223px;
+}
+
+.text-1::placeholder {
+  color: #2c353d99;
+}

@@ -1,0 +1,374 @@
+/* screen - staff-sign-up */
+
+.staff-sign-up {
+  align-items: center;
+  background-image: url(../img/influ-enroll-camapign.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+  height: 1024px;
+  width: 1440px;
+}
+
+.staff-sign-up .flex-row {
+  align-items: flex-end;
+  display: flex;
+  height: 57px;
+  margin-left: 10.0px;
+  margin-top: 60px;
+  min-width: 1200px;
+}
+
+.staff-sign-up .x1 {
+  align-self: flex-start;
+  display: flex;
+  gap: 21px;
+  width: 181px;
+}
+
+.staff-sign-up .place {
+  height: 44.41px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.staff-sign-up .home-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 771px;
+  min-width: 116px;
+  transition: all 0.2s ease;
+}
+
+.staff-sign-up .home-button:hover {
+  transform: scale(1.1);
+}
+
+.staff-sign-up .overlap-group2 {
+  align-items: flex-end;
+  background-color: var(--pink);
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 50px;
+  min-width: 114px;
+  padding: 4px 25px;
+}
+
+.staff-sign-up .place-1 {
+  min-height: 39px;
+  min-width: 64px;
+}
+
+.staff-sign-up .login-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 16px;
+  min-width: 116px;
+  transition: all 0.2s ease;
+}
+
+.staff-sign-up .login-button:hover {
+  transform: scale(1.1);
+}
+
+.staff-sign-up .overlap-group3 {
+  align-items: flex-start;
+  border: 2px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 50px;
+  min-width: 114px;
+  padding: 4px 22px;
+}
+
+.staff-sign-up .login {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+}
+
+.staff-sign-up .info {
+  align-items: flex-end;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 833px;
+  padding: 0 106px;
+  width: 1440px;
+}
+
+.staff-sign-up .flex-row-1 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 23px;
+  height: 270px;
+  margin-left: 21px;
+  margin-top: -12px;
+  min-width: 780px;
+}
+
+.staff-sign-up .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  min-height: 263px;
+  width: auto;
+}
+
+.staff-sign-up .username {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  width: 347px;
+}
+
+.staff-sign-up .username-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 150px;
+}
+
+.staff-sign-up .user-input {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 75px;
+  position: relative;
+  width: 345px;
+}
+
+.staff-sign-up .rectangle-11 {
+  height: 75px;
+  object-fit: cover;
+  position: relative;
+  width: 345px;
+}
+
+.staff-sign-up .x-here {
+  background-color: transparent;
+  border: 0;
+  height: 44px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 13px;
+  width: 301px;
+}
+
+.staff-sign-up .phone-num {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  height: 125px;
+  width: 347px;
+}
+
+.staff-sign-up .phone-number {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  width: 215px;
+}
+
+.staff-sign-up .phone-number-here {
+  background-color: transparent;
+  border: 0;
+  height: 44px;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 13px;
+  width: 313px;
+}
+
+.staff-sign-up .phone-number-here::placeholder {
+  color: #0000004c;
+}
+
+.staff-sign-up .name {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  width: 579px;
+}
+
+.staff-sign-up .first-name {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 161px;
+}
+
+.staff-sign-up .user-input-1 {
+  height: 75px;
+  position: relative;
+  width: 577px;
+  z-index: 1;
+}
+
+.staff-sign-up .rectangle-11-1 {
+  height: 75px;
+  object-fit: cover;
+  position: absolute; 
+  width: 577px;
+  z-index: -1;  
+}
+
+.staff-sign-up .x-here-1 {
+  background-color: transparent;
+  border: 0;
+  height: 44px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 13px;
+  width: 531px;
+}
+
+.staff-sign-up .last-name {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 0.2px;
+  width: 162.39px;
+}
+
+.staff-sign-up .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 42px;
+  margin-top: 23px;
+  min-width: 1200px;
+}
+
+.staff-sign-up .flex-row-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 124px;
+  width: 579px;
+}
+
+.staff-sign-up .password {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 21px;
+  white-space: nowrap;
+  width: 139px;
+}
+
+.staff-sign-up .place-2 {
+  height: 43px;
+  margin-left: 4px;
+  white-space: nowrap;
+  width: 59px;
+}
+
+.staff-sign-up .flex-row-3 {
+  align-items: flex-end;
+  align-self: flex-start;
+  display: flex;
+  gap: 86px;
+  margin-left: 23px;
+  margin-top: 37px;
+  min-width: 778px;
+}
+
+.staff-sign-up .overlap-group {
+  height: 115px;
+  position: relative;
+  width: 345px;
+}
+
+.staff-sign-up .user-input-2 {
+  left: 0;
+  position: absolute;
+  top: 40px;
+}
+
+.staff-sign-up .gender {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  width: 347px;
+}
+
+.staff-sign-up .gender-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 10px;
+  white-space: nowrap;
+  width: 107px;
+}
+
+.staff-sign-up .im-ready-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 20px;
+  min-width: 237px;
+  transition: all 0.2s ease;
+}
+
+.staff-sign-up .im-ready-button:hover {
+  transform: scale(1.1);
+}
+
+.staff-sign-up .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-12@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 59px;
+  min-width: 235px;
+  padding: 0 79px;
+}
+
+.staff-sign-up .next {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 58px;
+}
+
+.staff-sign-up .place-3 {
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.staff-sign-up .user-input-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ 

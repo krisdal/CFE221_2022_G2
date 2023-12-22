@@ -1,0 +1,390 @@
+/* screen - staff-create-campaign */
+
+.staff-create-campaign {
+  align-items: center;
+  background-image: url(../img/influ-enroll-camapign.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+  height: 1011px;
+  width: 1440px;
+}
+
+.staff-create-campaign .flex-row {
+  height: 57px;
+  margin-left: 74.0px;
+  margin-top: 60px;
+  min-width: 1264px;
+}
+
+.staff-create-campaign .x1 {
+  align-self: flex-start;
+  display: flex;
+  gap: 21px;
+  width: 181px;
+}
+
+.staff-create-campaign .place {
+  height: 44.41px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.staff-create-campaign .home-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 771px;
+  min-width: 116px;
+  transition: all 0.2s ease;
+}
+
+.staff-create-campaign .home-button:hover {
+  transform: scale(1.1);
+}
+
+.staff-create-campaign .overlap-group4 {
+  align-items: flex-end;
+  background-color: var(--pink);
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 50px;
+  min-width: 114px;
+  padding: 4px 25px;
+}
+
+.staff-create-campaign .place-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+  min-width: 64px;
+}
+
+.staff-create-campaign .mycambutton {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 16px;
+  min-width: 180px;
+  transition: all 0.2s ease;
+}
+
+.staff-create-campaign .mycambutton:hover {
+  transform: scale(1.1);
+}
+
+.staff-create-campaign .overlap-group3 {
+  align-items: flex-start;
+  border: 2px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 50px;
+  min-width: 178px;
+  padding: 5px 13px;
+}
+
+.staff-create-campaign .mycam {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+}
+
+.staff-create-campaign .info {
+  align-items: flex-end;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 820px;
+  padding: 0 115px;
+  width: 1440px;
+}
+
+.staff-create-campaign .flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  gap: 40px;
+  height: 387px;
+  margin-top: -1px;
+  min-width: 1199px;
+}
+
+.staff-create-campaign .flex-col {
+  flex-direction: column;
+  gap: 30px;
+  min-height: 387px;
+  width: 790px;
+}
+
+.staff-create-campaign .lets-create {
+  margin-right: 44px;
+  min-height: 104px;
+  min-width: 346px;
+}
+
+.staff-create-campaign .overlap-group2 {
+  height: 253px;
+  position: relative;
+  width: 790px;
+}
+
+.staff-create-campaign .overlap-group1 {
+  height: 251px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 789px;
+}
+
+.staff-create-campaign .camapign {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 134px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 558px;
+}
+
+.staff-create-campaign .campaign-name {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 242px;
+}
+
+.staff-create-campaign .user-input-2 {
+  width: 556px;
+}
+
+.staff-create-campaign .rectangle-11-2 {
+  width: 556px;
+}
+
+.staff-create-campaign .campaign-name-here {
+  background-color: transparent;
+  border: 0;
+  height: 44px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 512px;
+}
+
+.staff-create-campaign .campaign-name-here::placeholder {
+  color: #0000004c;
+}
+
+.staff-create-campaign .end-date {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  height: 119px;
+  left: 420px;
+  position: absolute;
+  top: 132px;
+  width: 369px;
+}
+
+.staff-create-campaign .user-input {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 75px;
+  position: relative;
+  width: 367px;
+}
+
+.staff-create-campaign .rectangle-11 {
+  height: 75px;
+  object-fit: cover;
+  position: relative;
+  width: 367px;
+}
+
+.staff-create-campaign .x-herer {
+  background-color: transparent;
+  border: 0;
+  height: 44px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 328px;
+}
+
+.staff-create-campaign .x-herer::placeholder {
+  color: #0000004c;
+}
+
+.staff-create-campaign .start-date {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  left: 0;
+  position: absolute;
+  top: 135px;
+  width: 369px;
+}
+
+.staff-create-campaign .start-date-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 24px;
+  white-space: nowrap;
+  width: 149px;
+}
+
+.staff-create-campaign .budget {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 121px;
+  margin-bottom: 4px;
+  width: 369px;
+}
+
+.staff-create-campaign .budget-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 16px;
+  white-space: nowrap;
+  width: 102px;
+}
+
+.staff-create-campaign .requiremet {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  height: 119px;
+  margin-left: 1.0px;
+  margin-top: 38px;
+  width: 1187px;
+}
+
+.staff-create-campaign .user-input-1 {
+  width: 1185px;
+}
+
+.staff-create-campaign .rectangle-11-1 {
+  width: 1185px;
+}
+
+.staff-create-campaign .x-here {
+  background-color: transparent;
+  border: 0;
+  height: 43px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 1146px;
+}
+
+.staff-create-campaign .description {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  margin-left: 1.0px;
+  margin-top: 9px;
+  width: 1187px;
+}
+
+.staff-create-campaign .description-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46px;
+  width: 374px;
+}
+
+.staff-create-campaign .im-ready-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 11px;
+  margin-top: 31px;
+  min-width: 237px;
+  transition: all 0.2s ease;
+}
+
+.staff-create-campaign .im-ready-button:hover {
+  transform: scale(1.1);
+}
+
+.staff-create-campaign .overlap-group {
+  height: 59px;
+  position: relative;
+  width: 235px;
+}
+
+.staff-create-campaign .rectangle-12 {
+  cursor: pointer;
+  height: 59px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 235px;
+}
+
+.staff-create-campaign .rectangle-12:hover {
+  transform: scale(1.1);
+}
+
+.staff-create-campaign .lets-work {
+  left: 46px;
+  position: absolute;
+  top: 1px;
+}
+
+.staff-create-campaign .flex {
+  align-items: flex-end;
+  display: flex;
+}
+
+.staff-create-campaign .lets {
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.staff-create-campaign .rectangle-11-3 {
+  height: 75px;
+  object-fit: cover;
+  position: relative;
+}
+
+.staff-create-campaign .user-input-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 75px;
+  position: relative;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Influencer Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/influ-sign-up-1.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body>
+    <input type="hidden" id="anPageName" name="page" value="influ-sign-up-1" />
+    <div class="container-center-horizontal">
+      <div class="influ-sign-up-1 screen">
+        <div class="flex-row">
+          <div class="x1">
+            <div class="logo"></div>
+            <div class="place atma-semi-bold-black-40px">NoobPro</div>
+          </div>
+          <a href="home-default.html">
+            <div class="home-button">
+              <div class="overlap-group2"><div class="place-1 place-3 atma-semi-bold-black-24px">HOME</div></div>
+            </div></a
+          >
+          <div class="login-container">
+            <a href="login.html">
+              <div class="login-button">
+                  <span class="visually-hidden">Login</span>
+              </div>
+          </a>
+                      <div class="login atma-semi-bold-black-24px-2">LOGIN</div>
+          </div>
+        </div>
+        <form id="influ-sign-up-form" action="/influ-sign-up" method="post" onsubmit="return validateForm()">
+        <div class="info">
+          <div class="flex-row-1">
+            <div class="flex-col">
+              <h1 class="lets-get-start atma-semi-bold-black-64px">Let's&nbsp;&nbsp;get start</h1>
+              <div class="username">
+                <div class="username-1 antic-normal-black-36px">Username</div>
+                <div class="user-input">
+                  <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                  <input
+                  id="username"
+                    class="x-here antic-normal-black-36px-2"
+                    name="username"
+                    placeholder="Username Here"
+                    type="text"
+                    autocomplete="username"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="phone-num">
+              <div class="phone-number antic-normal-black-36px">Phone number</div>
+              <div class="user-input">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                id="phonenum"
+                  class="x-here-1 antic-normal-black-36px-2"
+                  name="phonenum"
+                  placeholder=" Phone number Here"
+                  type="number"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="name-container">
+            <div class="name">
+              <div class="first-name antic-normal-black-36px">First Name</div>
+              <div class="user-input-1 user-input-5">
+                <img class="rectangle-11-1 rectangle-11-4" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                id="firstname"
+                  class="x-here-2 antic-normal-black-36px-2"
+                  name="firstname"
+                  placeholder="First name Here"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="name">
+              <div class="last-name antic-normal-black-36px">Last Name</div>
+              <div class="user-input-1 user-input-5">
+                <input
+                id="lastname"
+                  class="x-here-2 antic-normal-black-36px-2"
+                  name="lastname"
+                  placeholder="Last name Here"
+                  type="text"
+                  autocomplete="family-name"
+                /><img class="rectangle-11-1 rectangle-11-4" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+              </div>
+            </div>
+          </div>
+          <div class="flex-row-2">
+            <div class="flex-row-item">
+              <div class="password antic-normal-black-36px">Password</div>
+              <div class="user-input-1 user-input-5">
+                <input
+                id="password"
+                  class="x-here-2 antic-normal-black-36px-2"
+                  name="password"
+                  placeholder="Password Here"
+                  type="password"
+                  autocomplete="new-password"
+                /><img class="rectangle-11-1 rectangle-11-4" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+              </div>
+            </div>
+            <div class="flex-row-item">
+              <div class="place-2 place-3 antic-normal-black-36px">Mail</div>
+              <div class="user-input-1 user-input-5">
+                <input
+                id="mail"
+                  class="x-here-2 antic-normal-black-36px-2"
+                  name="mail"
+                  placeholder="Mail Here"
+                  type="email"
+                  autocomplete="email"
+
+                /><img class="rectangle-11-1 rectangle-11-4" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+              </div>
+            </div>
+          </div>
+          <div class="flex-row-3">
+            <div class="overlap-group">
+              <div class="date-of-birth antic-normal-black-36px">Date of Birth</div>
+              <div class="user-input-2 user-input-5">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input id="dob"class="x-here antic-normal-black-36px-2" name="dob" placeholder="DoB Here" type="text" />
+              </div>
+            </div>
+            <div class="gender">
+              <div class="gender-1 antic-normal-black-36px">Gender</div>
+              <div class="user-input">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                id="gender"
+                  class="x-here antic-normal-black-36px-2"
+                  name="gender"
+                  placeholder="Gender Here"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="flex-row-4">
+            <div class="flex-row-item-1">
+              <div class="niche antic-normal-black-36px">Niche</div>
+              <div class="user-input">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                id="niche"
+                  class="x-here-1 antic-normal-black-36px-2"
+                  name="niche"
+                  placeholder="your niche here"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="flex-row-item-1">
+              <div class="follower antic-normal-black-36px">Follower</div>
+              <div class="user-input">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                id="follower"
+                  class="x-here antic-normal-black-36px-2"
+                  name="follower"
+                  placeholder="follower Here"
+                  type="number"
+                />
+              </div>
+            </div>
+            <div class="engagement-rater">
+              <div class="engagement-rate antic-normal-black-36px">Engagement Rate</div>
+              <div class="user-input">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                id="engage_rate"
+                  class="x-here antic-normal-black-36px-2"
+                  name="engage_rate"
+                  placeholder="engagement rate"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="bio">
+            <div class="bio-1 antic-normal-black-36px">Bio</div>
+            <div class="user-input-3 user-input-5">
+              <img class="rectangle-11-2 rectangle-11-4" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+              <input
+              id="bio"
+                class="bio-here antic-normal-black-36px-2"
+                name="bio"
+                placeholder="bio Here"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="platfor">
+            <div class="platform antic-normal-black-36px">Platform</div>
+            <div class="user-input-4 user-input-5">
+              <img class="rectangle-11-3 rectangle-11-4" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+              <input
+              id="platform"
+                class="your-platform-here antic-normal-black-36px-2"
+                name="platform"
+                placeholder="platform Here"
+                type="text"
+              />
+            </div>
+          </div>
+          <button type="submit" class="im-ready-button overlap-group1 atma-semi-bold-black-36px">Next</button></form>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="js/influ-sign-up.js"></script>
+  </body>
+</html>

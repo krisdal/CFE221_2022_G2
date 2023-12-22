@@ -1,0 +1,218 @@
+/* screen - staff-campaign-info */
+
+.staff-campaign-info {
+  align-items: center;
+  background-image: url(../img/influ-enroll-camapign.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+  height: 1924px;
+  width: 1440px;
+}
+
+.staff-campaign-info .flex-row {
+  height: 57px;
+  margin-left: 64.0px;
+  margin-top: 60px;
+  min-width: 1254px;
+}
+
+.staff-campaign-info .x1 {
+  display: flex;
+  gap: 21px;
+  width: 181px;
+}
+
+.staff-campaign-info .place {
+  height: 44.41px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.staff-campaign-info .home-button {
+  align-items: flex-start;
+  align-self: center;
+  cursor: pointer;
+  display: flex;
+  margin-left: 702px;
+  margin-top: 1.0px;
+  min-width: 116px;
+  transition: all 0.2s ease;
+}
+
+.staff-campaign-info .home-button:hover {
+  transform: scale(1.1);
+}
+
+.staff-campaign-info .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--pink);
+  height: 50px;
+  min-width: 114px;
+  padding: 4px 25px;
+}
+
+.staff-campaign-info .place-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+  min-width: 64px;
+}
+
+.staff-campaign-info .my-cam:hover {
+  transform: scale(1.1);
+}
+
+.staff-campaign-info .overlap-group {
+  align-items: flex-start;
+  border: 2px solid;
+  border-color: var(--black);
+  height: 53px;
+  min-width: 230px;
+  padding: 5px 37px;
+}
+
+.staff-campaign-info .mycam {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 39px;
+  width: 146px;
+}
+
+.staff-campaign-info .info {
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1733px;
+  width: 1440px;
+}
+
+.staff-campaign-info .title {
+  height: 104px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 526px;
+  width: 326px;
+}
+
+.staff-campaign-info .info-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 127px;
+  margin-top: 50px;
+  min-height: 537px;
+  width: 1167px;
+}
+
+.staff-campaign-info .flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 262px;
+  min-width: 1169px;
+}
+
+.staff-campaign-info .flex-col {
+  flex-direction: column;
+  gap: 26px;
+  min-height: 262px;
+  width: 347px;
+}
+
+.staff-campaign-info .campaign-name {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 242px;
+}
+
+.staff-campaign-info .rectangle-11 {
+  height: 75px;
+  object-fit: cover;
+  width: 345px;
+}
+
+.staff-campaign-info .start-date {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 149px;
+}
+
+.staff-campaign-info .end-date {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  margin-bottom: 12px;
+  margin-left: 73px;
+  width: 347px;
+}
+
+.staff-campaign-info .budget {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  margin-bottom: 16px;
+  margin-left: 55px;
+  width: 347px;
+}
+
+.staff-campaign-info .budget-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 23px;
+  white-space: nowrap;
+  width: 102px;
+}
+
+.staff-campaign-info .requiremet {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  margin-top: 29px;
+  width: 1164px;
+}
+
+.staff-campaign-info .rectangle-11-1 {
+  height: 75px;
+  object-fit: cover;
+  width: 1162px;
+}
+
+.staff-campaign-info .description {
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  margin-top: 10px;
+  width: 1164px;
+}
+
+.staff-campaign-info .description-1 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 46.0px;
+  width: 374px;
+}
+
+.staff-campaign-info .flex {
+  align-items: flex-start;
+  display: flex;
+}
+
+.staff-campaign-info .overlap {
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+}

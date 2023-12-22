@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/staff-sign-up.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body>
+    <input type="hidden" id="anPageName" name="page" value="staff-sign-up" />
+    <div class="container-center-horizontal">
+      <div class="staff-sign-up screen">
+        <div class="flex-row">
+          <div class="x1">
+            <div class="logo"></div>
+            <div class="place atma-semi-bold-black-40px">NoobPro</div>
+          </div>
+          <a href="home-default.html">
+            <div class="home-button">
+              <div class="overlap-group2"><div class="place-1 place-3 atma-semi-bold-black-24px">HOME</div></div>
+            </div></a
+          ><a href="login.html">
+            <div class="login-button">
+              <div class="overlap-group3"><div class="login atma-semi-bold-black-24px-2">LOGIN</div></div>
+            </div></a
+          >
+        </div>
+        <form id="staff-sign-up-form" action="/staff-sign-up" method="post" onsubmit="return validateForm()">
+          <div class="info">
+          <div class="flex-row-1">
+            <div class="flex-col">
+              <h1 class="lets-get-start atma-semi-bold-black-64px">Let’s&nbsp;&nbsp;get start</h1>
+              <div class="username">
+                <div class="username-1 antic-normal-black-36px">Username</div>
+                <div class="user-input">
+                  <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                  <input
+                    id="username"
+                    class="x-here antic-normal-black-36px-2"
+                    name="username"
+                    placeholder="Username Here"
+                    type="text"
+                    autocomplete="username"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="phone-num">
+              <div class="phone-number antic-normal-black-36px">Phone number</div>
+              <div class="user-input">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                  id="phonenum"
+                  class="phone-number-here antic-normal-black-36px-2"
+                  name="phonenum"
+                  placeholder=" Phone number Here"
+                  type="number"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="name-container">
+            <div class="name">
+              <div class="first-name antic-normal-black-36px">First Name</div>
+              <div class="user-input-1 user-input-3">
+                <img class="rectangle-11-1" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                  id="firstname"
+                  class="x-here-1 antic-normal-black-36px-2"
+                  name="firstname"
+                  placeholder="First name Here"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="name">
+              <div class="last-name antic-normal-black-36px">Last Name</div>
+              <div class="user-input-1 user-input-3">
+                <input
+                  id="lastname"
+                  class="x-here-1 antic-normal-black-36px-2"
+                  name="lastname"
+                  placeholder="Last name Here"
+                  type="text"
+                  autocomplete="family-name"
+                />
+                  <img class="rectangle-11-1" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+              </div>
+            </div>
+          </div>
+          <div class="flex-row-2">
+            <div class="flex-row-item">
+              <div class="password antic-normal-black-36px">Password</div>
+              <div class="user-input-1 user-input-3">
+                <img class="rectangle-11-1" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                  id="password"
+                  class="x-here-1 antic-normal-black-36px-2"
+                  name="password"
+                  placeholder="Password Here"
+                  type="password"
+                  autocomplete="new-password"
+                />
+              </div>
+            </div>
+            <div class="flex-row-item">
+              <div class="place-2 place-3 antic-normal-black-36px">Mail</div>
+              <div class="user-input-1 user-input-3">
+                <img class="rectangle-11-1" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                  id="mail"
+                  class="x-here-1 antic-normal-black-36px-2"
+                  name="mail"
+                  placeholder="Mail Here"
+                  type="email"
+                  autocomplete="email"
+
+                />
+              </div>
+            </div>
+          </div>
+          <div class="flex-row-3">
+            <div class="overlap-group">
+              <div class="date-of-birth antic-normal-black-36px">Date of Birth</div>
+              <div class="user-input-2 user-input-3">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input id="dob"class="x-here antic-normal-black-36px-2" name="dob" placeholder="DoB Here" type="text" />
+              </div>
+            </div>
+            <div class="gender">
+              <div class="gender-1 antic-normal-black-36px">Gender</div>
+              <div class="user-input">
+                <img class="rectangle-11" src="img/rectangle-11-2.png" alt="Rectangle 11" />
+                <input
+                  id="gender"
+                  class="x-here antic-normal-black-36px-2"
+                  name="gender"
+                  placeholder="Gender Here"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="im-ready-button overlap-group1 atma-semi-bold-black-36px">Next</button></form>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="js/staff-sign-up.js"></script>
+  </body>
+</html>

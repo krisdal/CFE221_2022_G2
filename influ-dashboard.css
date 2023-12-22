@@ -1,0 +1,311 @@
+/* screen - influ-dashboard */
+
+.influ-dashboard {
+  background-image: url(../img/home-default.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 2936px;
+  min-width: 1440px;
+  width: 100%;
+}
+
+.influ-dashboard .nav-bar {
+  background-image: url(../img/nav-bar.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 99px;
+  left: 102px;
+  position: fixed;
+  top: 49px;
+  width: 1236px;
+  z-index: 4;
+}
+
+.influ-dashboard .x1 {
+  display: flex;
+  gap: 21px;
+  margin-left: 23px;
+  margin-top: 24px;
+  width: 181px;
+}
+
+.influ-dashboard .place {
+  height: 44.41px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.influ-dashboard .x2 {
+  display: flex;
+  height: 37px;
+  margin-left: 60px;
+  margin-top: 26px;
+  width: 601px;
+}
+
+.influ-dashboard .all-campaign {
+  cursor: pointer;
+  height: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 4px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 185px;
+}
+
+.influ-dashboard .all-campaign:hover {
+  transform: scale(1.1);
+}
+
+.influ-dashboard .my-campaign:hover {
+  transform: scale(1.1);
+}
+
+.influ-dashboard .place-1 {
+  cursor: pointer;
+  height: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 21px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 150px;
+}
+
+.influ-dashboard .place-1:hover {
+  transform: scale(1.1);
+}
+
+.influ-dashboard .home-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 99px;
+  margin-top: 28px;
+  min-width: 116px;
+  transition: all 0.2s ease;
+}
+
+.influ-dashboard .home-button:hover {
+  transform: scale(1.1);
+}
+
+.influ-dashboard .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--pink);
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 50px;
+  min-width: 114px;
+  padding: 4px 19px;
+}
+
+.influ-dashboard .user-button:hover {
+  transform: scale(1.1);
+}
+
+.influ-dashboard .overlap-group-2 {
+  height: 50px;
+  position: relative;
+  width: 133px;
+}
+
+.influ-dashboard .cam-dis::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.influ-dashboard .cam-dis {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  height: 1145px;
+  margin-top: 215px;
+  overflow: scroll;
+  width: 1440px;
+  z-index: 3;
+}
+
+.influ-dashboard .title {
+  height: 126px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 231px;
+  width: 978px;
+}
+
+.influ-dashboard .recent-campaign {
+  display: flex;
+  gap: 71px;
+  height: 767px;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 1440px;
+}
+
+.influ-dashboard .campaign {
+  align-items: flex-end;
+  display: flex;
+  height: 725px;
+  min-width: 572px;
+}
+
+.influ-dashboard .overlap-group {
+  height: 725px;
+  margin-bottom: 0;
+  position: relative;
+  width: 568px;
+}
+
+.influ-dashboard .rectangle-7 {
+  background-color: var(--midnight-moss);
+  border: 0px none;
+  border-radius: 50px;
+  height: 723px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 568px;
+}
+
+.influ-dashboard .rectangle-8 {
+  background-color: var(--white);
+  border: 2px solid;
+  border-color: var(--black);
+  border-radius: 0px 0px 50px 50px;
+  height: 132px;
+  left: 0;
+  position: absolute;
+  top: 593px;
+  width: 568px;
+}
+
+.influ-dashboard .dis-influ {
+  cursor: pointer;
+  display: flex;
+  margin-left: 529px;
+  width: 422px;
+}
+
+.influ-dashboard .button:hover {
+  transform: scale(1.1);
+}
+
+.influ-dashboard .overlap-group-3 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-14@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 87px;
+  justify-content: flex-end;
+  min-width: 422px;
+  padding: 4px 60px;
+}
+
+.influ-dashboard .mycampaign::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.influ-dashboard .mycampaign {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  height: 1142px;
+  margin-top: 5px;
+  overflow: scroll;
+  width: 1440px;
+  z-index: 2;
+}
+
+.influ-dashboard .my-campaign-1 {
+  height: 126px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 441px;
+  margin-top: 32px;
+  width: 557px;
+}
+
+.influ-dashboard .recent-campaign-1::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.influ-dashboard .recent-campaign-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+  height: 1081px;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 1440px;
+}
+
+.influ-dashboard .overlap-group-1 {
+  height: 725px;
+  position: relative;
+  width: 568px;
+}
+
+.influ-dashboard .button-1:hover {
+  transform: scale(1.1);
+}
+
+.influ-dashboard .overlap-group-4 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-14@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 87px;
+  justify-content: flex-end;
+  min-width: 422px;
+  padding: 4px 111px;
+}
+
+.influ-dashboard .let-look {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 78px;
+  min-width: 186px;
+  text-align: center;
+}
+
+.influ-dashboard .footer {
+  background-color: transparent;
+  background-image: url(../img/footer.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 385px;
+  margin-top: 44px;
+  width: 1440px;
+  z-index: 1;
+}
+
+.influ-dashboard .place-2 {
+  height: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 24px;
+  width: 108px;
+}
+
+.influ-dashboard .mail {
+  height: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 73px;
+}
